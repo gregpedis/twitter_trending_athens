@@ -1,0 +1,54 @@
+<div class="bg-gradient">
+  <div class="container bg-white">
+
+    <br> <br>
+
+    <div class="title-text">
+      <h2> Trending in Athens </h2>
+      <h5> The pinnacle of human conversation </h5>
+      <br>
+      <img src="assets/logo.png">
+    </div>
+
+    <br><br>
+
+    <div class="row">
+
+      <div class="column"> 
+        <select class="select" [(ngModel)]="selectedDate">
+          <option *ngFor="let date of dates" [ngValue]="date">
+            {{date.day}}/{{date.month}}/{{date.year}}
+          </option>
+        </select>
+      </div>
+      
+      <div class="column"> 
+        <button class="button" (click)="loadTrendingByDate()">Load</button>
+      </div>
+
+    </div>
+
+    <br> <br>
+
+    <table>
+
+      <thead>
+        <tr>
+          <th>Hashtag</th>
+          <th>Volume</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let trend of trends">
+          <td> {{trend.name}} </td>
+          <td> {{trend.volume}}</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <br> <br>
+
+  </div>
+</div>

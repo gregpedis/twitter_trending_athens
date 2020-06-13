@@ -1,0 +1,45 @@
+// Color
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+$color-blue-light: #1da0f2 !default;
+$color-blue-dark: #3e5c7a !default;
+$color-blue-darker: #233f5c !default;
+
+
+// Classes
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to top, #1da0f2, #237dbb, #235c87, #1e3d57, #15202b);
+}
+
+.title-text {
+  text-align: center;
+}
+
+.select {
+  &:focus {
+    border-color: $color-blue-dark;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 8" width="30"><path fill="%23'+ 
+    str-slice(inspect($color-blue-dark), 2) + '" d="M0,0l6,8l6-8"/></svg>');
+  }
+}
+
+.button {
+  background-color: $color-blue-light;
+  border-color: transparent;
+
+  &:hover {
+    background-color: $color-blue-darker;
+    border-color: transparent;
+  }
+
+  &:active {
+    background-color: $color-blue-dark;
+    border-color: transparent;
+  }
+}

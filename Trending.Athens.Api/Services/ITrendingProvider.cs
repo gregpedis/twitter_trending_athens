@@ -11,5 +11,8 @@ namespace Trending.Athens.Api.Services
     {
         public List<Trend> GetTrends(DateTime dateCreated);
 
+        public List<Trend> GetLastTrends();
+
+        public List<Date> GetAvailableDateTimes();
     }
 }
