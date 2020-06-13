@@ -14,7 +14,7 @@ In the **Trending.Athens.Client** directory execute the following:
 
 `npm run build --prod`
 
-By default, the product of the build is saved in the wwwroot/ of the backend project.
+By default, the product of the build is saved in the **wwwroot/** of the backend project.
 Done.
 
 ### Backend
