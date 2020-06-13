@@ -17,7 +17,7 @@ In the **Trending.Athens.Client** directory execute the following:
 By default, the product of the build is saved in the wwwroot/ of the backend project.
 Done.
 
-#### Backend
+### Backend
 
 In the **Trending.Athens.Api** directory execute the following: 
 
