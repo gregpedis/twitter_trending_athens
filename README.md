@@ -28,4 +28,3 @@ All that's left is to deploy the webapplication to a VM/VPS of your choosing and
 
 `dotnet Trending.Athens.Api.dll`
 
-Done.
