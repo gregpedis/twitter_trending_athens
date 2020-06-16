@@ -20,7 +20,7 @@ By default, the product of the build is saved in the **wwwroot/** of the backend
 
 In the **Trending.Athens.Api** directory execute the following: 
 
-`dotnet publish --self-contained -c release -r [chosen runtime] -o bin/Publish`
+`dotnet publish --self-contained -c release -r [chosen runtime] -o ../Trending.Athens.Release`
 
 ---
 
