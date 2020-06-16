@@ -15,7 +15,11 @@ $color-blue-darker: #233f5c !default;
 
 .bg-gradient {
   background-image: linear-gradient(to top, #1da0f2, #237dbb, #235c87, #1e3d57, #15202b);
-  height: 100%;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  top: 0;
+  left: 0;
 }
 
 .title-text {
