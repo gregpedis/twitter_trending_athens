@@ -15,15 +15,12 @@ In the **Trending.Athens.Client** directory execute the following:
 `npm run build --prod`
 
 By default, the product of the build is saved in the **wwwroot/** of the backend project.
-Done.
 
 ### Backend
 
 In the **Trending.Athens.Api** directory execute the following: 
 
 `dotnet publish --self-contained -c release -r [chosen runtime] -o bin/Publish`
-
-Done.
 
 ---
 
