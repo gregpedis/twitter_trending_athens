@@ -21,7 +21,7 @@ Done.
 
 In the **Trending.Athens.Api** directory execute the following: 
 
-`dotnet publish --self-cotained -c release -r [chosen runtime] -o bin/Publish`
+`dotnet publish --self-contained -c release -r [chosen runtime] -o bin/Publish`
 
 Done.
 
