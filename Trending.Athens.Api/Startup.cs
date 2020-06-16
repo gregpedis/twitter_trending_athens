@@ -48,6 +48,7 @@ namespace Trending.Athens.Api
             application.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Trending Athens API"));
 
             application
+                .UseHttpsRedirection()
                 .UseDefaultFiles()
                 .UseStaticFiles()
                 .UseForwardedHeaders(new ForwardedHeadersOptions() { ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto });
